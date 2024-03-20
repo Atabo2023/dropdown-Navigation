@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  margin-left: 5rem;
+  font-family: "Epilogue";
+}
+
+.btn {
+  font-size: 1.5rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 3px;
+  background-color: #fff;
+  margin-left: 65rem;
+  height: 3rem;
+}
+
+.btns {
+  font-size: 2rem;
+  color: #fff;
+  background-color: black;
+  margin-top: 3rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+  border: none;
+}
+
+.tab {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: black;
+}
+
+.log {
+  font-family: "Ruby";
+  cursor: pointer;
+  font-size: 1.5rem;
+  /* margin-left: 60rem; */
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  font-size: 1.5rem;
+  list-style-type: none;
+  font-family: "Ruby";
+}
+
+.nav__link {
+  display: flex;
+}
+
+.contents {
+  font-size: 6rem;
+  font-family: "Epilogue";
+  font-weight: 600;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  color: hsl(0, 0%, 41%);
+}
+.content {
+  font-size: 1.8rem;
+  font-family: "Epilogue", Ruby;
+  font-weight: 500;
+  line-height: 1.5;
+  color: hsl(0, 0%, 41%);
+}
+
+.conten {
+  font-size: 6rem;
+  font-family: "Epilogue", Ruby;
+  margin-top: 1rem;
+  font-weight: 600;
+  line-height: 1rem;
+  margin-bottom: 5rem;
+  color: hsl(0, 0%, 41%);
+}
+
+.hidden {
+  color: #333;
+  color: #333;
+  display: none;
+  opacity: 0;
+}
+
+.item:hover .hidden {
+  display: block;
+  animation: test 3s linear forwards;
+}
+
+@keyframes test {
+  0% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.item {
+  list-style-type: none;
+}
+
+.hidden {
+  list-style-type: none;
+}
+
+.li {
+  font-size: 1rem;
+}
+
+.nav-btn {
+  cursor: pointer;
+}
+
+.overlay hidden {
+  overflow: hidden;
+}
+
+.Calendar {
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+  list-style-type: none;
+}
+
+.todo-icon {
+  margin-right: 1rem;
+  list-style-type: none;
+  margin-top: 0.5rem;
+}
+
+.Reminder-icon {
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+  list-style-type: none;
+}
+
+.svg-footer {
+  display: flex;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+img {
+  display: inline-block;
+  position: absolute;
+  top: 9rem;
+  left: 85rem;
+  width: 29%;
+  height: 68%;
+}

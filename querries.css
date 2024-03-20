@@ -1,0 +1,8 @@
+@media (max-width: 64em) {
+  img {
+    top: 5rem;
+    left: 68rem;
+    width: 24%;
+    height: 58%;
+  }
+}
